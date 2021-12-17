@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "retro-font";
+  src: url(../fonts/EightBitDragon-anqx.ttf);
+}
+
+body {
+  background-image: url(../images/metroidVaniaDungeonByDomino99.gif);
+  /* Image by Pixel Artist domino99 */
+  background-repeat: repeat;
+  background-size: 100%;
+  font-family: "retro-font";
+  margin: 0 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+h1 {
+  color: rgba(255, 250, 255);
+  background-color: rgba(37, 36, 34, 0.5);
+  border: solid;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h5 {
+  color: rgba(255, 250, 255);
+  background-color: rgba(64, 61, 57, 0.8);
+  border: solid;
+  text-align: center;
+  margin: 50px 250px;
+  padding: 15px 50px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+#controls {
+  line-height: 3;
+}
+
+span {
+  padding: 0 25px;
+}
+
+p {
+  line-height: 1.5;
+  padding: 0 10px;
+  text-align: center;
+}
+
+hr {
+  border: solid 2px;
+}
+
+h4 {
+  border: 1px solid;
+  padding: 5px;
+}
+
+h6 {
+  color: rgba(37, 36, 34);
+  background-color: rgba(255, 250, 255, 0.9);
+  font-size: 16px;
+  padding: 20px;
+}
+
+#game-log {
+  color: rgba(255, 250, 255);
+  background-color: rgba(37, 36, 34, 0.5);
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-log {
+  color: rgba(255, 250, 255);
+  background-color: rgba(64, 61, 57, 0.8);
+  border: solid;
+  margin: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 120vh;
+}
